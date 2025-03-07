@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./animations";
+
+.testimonials {
+  text-align: center;
+  padding: 50px 0;
+  background: linear-gradient(45deg, #111, #222);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: $primary-color;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.mySwiper {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.testimonial-slide {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 1rem;
+    font-style: italic;
+    color: white;
+  }
+
+  .name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff00ff;
+  }
+}
+
+.testimonial-slide:hover {
+  transform: scale(1.1);
+}

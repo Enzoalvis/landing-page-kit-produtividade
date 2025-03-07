@@ -1,0 +1,50 @@
+.vsl-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #111, #222);
+}
+
+.vsl-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.video-placeholder {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  background: #000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.play-button {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.play-button:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.play-button svg {
+  color: #fff;
+  font-size: 2rem;
+}
+
